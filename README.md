@@ -31,7 +31,7 @@ python-constraint
 Install dependencies:
 
 ```bash
-pip install numpy python-constraint
+pip install -r requirements.txt
 ```
 
 ## Usage
