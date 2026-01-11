@@ -72,5 +72,5 @@ This runs both algorithms on 8 puzzles (easy to expert) and exports results to `
 | Expert | ~245-1300 ms | ~195-3200 ms | ~44-2400 ms |
 
 ## Author
-Giovanni Zara matr. 1929181
-AI Course Homework - Computer Engeneering, MSc Artificial Intelligence and Robotics, Sapienza University of Rome
+
+AI Course Homework - Artificial Intelligence, Master's Degree (1st Year)

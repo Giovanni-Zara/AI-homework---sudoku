@@ -13,7 +13,7 @@ class SudokuState:
         """
         self.grid = grid.copy()  # gotta copy or it breaks everything
         self.size = 9
-        self.box_size = 3
+        self.box_size = 3       #3x3 bozes of size 9 is standard sudoku size
     
     def is_valid_move(self, row: int, col: int, num: int) -> bool:
         """Check if placing num at (row, col) is valid."""
@@ -34,7 +34,7 @@ class SudokuState:
     
     def get_possible_values(self, row: int, col: int) -> Set[int]:
         """Get all possible values for a cell."""
-        if self.grid[row, col] != 0:  # if already filled return empty set duh
+        if self.grid[row, col] != 0:  # if already filled return empty set 
             return set()
         
         possible = set(range(1, 10))  # start w/ all nums 1-9
@@ -67,7 +67,7 @@ class SudokuState:
         for i in range(self.size):
             row = self.grid[i, :]
             non_zero = row[row != 0]  # ignore empties
-            if len(non_zero) != len(set(non_zero)):  # if len diff = dupes exist -> bad
+            if len(non_zero) != len(set(non_zero)):  # if len diff = duples exist -> bad
                 return False
         
         # Check columns
