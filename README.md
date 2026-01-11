@@ -1,4 +1,7 @@
 # Sudoku Solver - AI Project
+[![Report](https://img.shields.io/badge/Read_Report-PDF-red?style=for-the-badge&logo=adobeacrobatreader)]((https://github.com/Giovanni-Zara/AI-homework---sudoku/blob/main/Report_homework_AI.pdf))
+
+Complete [**Project Report**](https://github.com/Giovanni-Zara/AI-homework---sudoku/blob/main/Report_homework_AI.pdf) at: ```AI-homework---sudoku/Report_homework_AI.pdf```
 
 A Sudoku puzzle solver implementing and comparing two AI approaches: **A\* Search** and **Constraint Satisfaction Problem (CSP)**.
 
